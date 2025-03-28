@@ -1,9 +1,21 @@
-env/
-venv/
 
-.idea/
+# Python-generated files
 __pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Pycharm
+.idea/
+
+# Jupyter Checkpoints
 *.ipynb_checkpoints
 
-
+# Data
+/src/data/
 /src/results/
